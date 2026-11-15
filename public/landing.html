@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punto Eléctrico | Materiales y Soluciones Eléctricas, Automatización Industrial y Tecnología Conectada</title>
+  
+  <!-- 1. Tailwind CSS Oficial (CORREGIDO: Ahora apunta al script ejecutable) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans min-h-screen flex flex-col justify-between relative overflow-x-hidden">
+
+  <!-- Elemento decorativo de fondo: Resplandor sutil amarillo -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[300px] bg-gradient-to-b from-yellow-400/5 to-transparent blur-3xl pointer-events-none z-0"></div>
+
+  <!-- Contenedor Principal -->
+  <main class="relative z-10 flex-grow flex flex-col items-center justify-center px-4 py-12 max-w-4xl mx-auto text-center">
+    
+    <!-- Sección del Logo Oficial Animado en MP4 con Resplandor Interno Integrado -->
+    <div class="mb-8 transform hover:scale-105 transition duration-300 relative inline-block group">
+      
+      <!-- Capa de brillo integrada detrás/borde de la silueta (Video en bucle con blur) -->
+    <!--  <video autoplay loop muted playsinline 
+             class="absolute inset-0 h-48 md:h-56 w-auto object-contain brightness-150 blur-md opacity-60 mix-blend-screen pointer-events-none">
+        <source src="/paneldecontrol/logo.mp4" type="video/mp4">
+      </video>
+      
+      <!-- Logo Principal animado al frente -->
+      <video autoplay loop muted playsinline 
+             class="relative h-48 md:h-56 w-auto object-contain z-10">
+        <source src="/paneldecontrol/logo.mp4" type="video/mp4">
+        Tu navegador no soporta videos integrados.
+      </video>
+           
+    </div>
+
+    <!-- Etiqueta de Estado en Desarrollo -->
+    <span class="inline-flex items-center gap-2 px-3 py-1 border border-yellow-400/30 bg-yellow-400/10 text-yellow-400 text-xs font-semibold tracking-wider uppercase rounded-full mb-6">
+      <span class="h-2 w-2 bg-yellow-400 rounded-full animate-ping"></span>
+      Sitio en Desarrollo
+    </span>
+
+    <!-- Título Principal -->
+    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 uppercase">
+      Punto Eléctrico
+    </h1>
+
+    <!-- Descripción Breve del Negocio y Soluciones -->
+    <div class="space-y-4 max-w-2xl mx-auto mb-12">
+      <p class="text-zinc-300 text-base md:text-lg leading-relaxed">
+        Próximamente nos dedicaremos de manera integral a la <strong class="text-white font-semibold">venta de materiales eléctricos domiciliarios e industriales</strong>, brindando respuestas inmediatas y asesoramiento técnico especializado para la solución de problemas eléctricos.
+      </p>
+      <p class="text-zinc-400 text-sm md:text-base leading-relaxed">
+        Impulsamos el futuro de la eficiencia mediante el diseño y desarrollo de sistemas de <strong class="text-yellow-400 font-medium">automatización industrial, domótica avanzada de vanguardia e integración de ecosistemas IoT</strong> a medida.
+      </p>
+    </div>
+
+    <!-- Bloque de Redirección para Integración de Dispositivos -->
+    <div class="w-full max-w-md bg-zinc-900/60 p-6 rounded-xl border border-zinc-800 backdrop-blur-sm shadow-xl">
+      <p class="text-zinc-400 text-sm mb-4 tracking-wide font-medium uppercase">
+        Para integrar tus dispositivos dirigirse a:
+      </p>
+      <a href="/paneldecontrol" 
+         class="inline-flex items-center justify-center w-full py-3.5 px-6 bg-yellow-400 hover:bg-yellow-500 text-black font-black uppercase text-sm tracking-wider rounded-lg shadow-lg transition duration-200 transform hover:-translate-y-0.5">
+        Ingresar al Panel de Control
+        <svg xmlns="http://w3.org" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Footer Fijo Estilizado -->
+  <footer class="relative z-10 w-full border-t border-zinc-900 bg-black/80 backdrop-blur-sm py-4 text-center text-xs text-zinc-600 tracking-widest uppercase">
+    puntoelectrico.ar &copy; 2026 &bull; Materiales y Soluciones Eléctricas
+  </footer>
+
+</body>
+</html>
